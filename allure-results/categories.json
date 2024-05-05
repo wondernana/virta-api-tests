@@ -1,0 +1,7 @@
+[
+  {
+    "name": "Response Validation: Invalid Data Types",
+    "messageRegex": ".*jackson.databind.exc.MismatchedInputException.*",
+    "matchedStatuses": ["broken"]
+  }
+]

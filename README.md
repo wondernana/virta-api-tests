@@ -17,3 +17,7 @@
 - Install Allure Report, following [instructions](https://allurereport.org/docs/gettingstarted-installation/).
 - Run ``` allure serve ```: this will launch allure server on your local machine and will open the report in the browser. 
 - Alternatively, you can run ``` allure generate --single-file allure-results ```: this will generate the report in a single html file located in `allure-report` folder.
+
+### Notes: ### 
+- Base URL and base path can be configured in `src/test/resources/test-data.properties`
+- Tests are parametrized with available station ids, which can be configured in `src/test/resources/available_stations.csv`
